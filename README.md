@@ -1,10 +1,9 @@
 # Ethereum_Payment_App
-This is a proof of concept for an app that stores a directory of FinTech consultants and pays them with eth on the Ethereum blockchain.
+This is a proof of concept for an app that stores a directory of consultants and pays them with eth on the Ethereum blockchain.
 
 ## How to Use and Test the App with Ganache
 
-### Send a test transaction by using the application’s web interface, and then
-### look up the resulting transaction hash in Ganache.
+### Send a test transaction by using the application’s web interface, and then look up the resulting transaction hash in Ganache.
 
 1. Make sure your development environment has access to the libraries listed in the Technologies section below.
 2. Clone and Pull the github repository.
@@ -16,10 +15,10 @@ This is a proof of concept for an app that stores a directory of FinTech consult
 7. Click the Send Transaction button to sign and send the transaction with your Ethereum account information. If the transaction is successfully communicated to Ganache, validated, and added to a block, a resulting transaction hash code will be written to the Streamlit application sidebar.
 
 8. Navigate to the Ganache accounts tab and locate your account (index 0).
-    
+![Ganache 4_11_2022 8_57_03 PM](https://user-images.githubusercontent.com/94941017/163826663-e944f88c-9fb7-4df6-8cbd-41d22b2bf564.png)
 
 9. Navigate to the Ganache transactions tab and locate the transaction.
-
+![Ganache 4_11_2022 8_58_03 PM](https://user-images.githubusercontent.com/94941017/163826674-ed3f72de-3115-4e6e-888b-bd59a2e44852.png)
 ---
 
 ## Technologies
@@ -39,8 +38,6 @@ This application was written in python 3.7. It uses the following libraries:
 * [streamlit](https://github.com/voila-dashboards) - For publishing Jupyter notebook output as a web application.
 
 * [dataclasses](https://github.com/voila-dashboards) - For publishing Jupyter notebook output as a web application.
-
-* [typing](https://github.com/voila-dashboards) - For publishing Jupyter notebook output as a web application.
 
 * [typing](https://github.com/voila-dashboards) - For publishing Jupyter notebook output as a web application.
 
