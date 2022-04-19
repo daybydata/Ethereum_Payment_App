@@ -3,7 +3,7 @@ This is a proof of concept for an app that stores a directory of consultants and
 
 ## How to Use and Test the App with Ganache
 
-![Ganache](https://trufflesuite.com/ganache/) is program that allows you to quickly set up a local blockchain, which you can use to test and develop smart contracts.
+[Ganache](https://trufflesuite.com/ganache/) is program that allows you to quickly set up a local blockchain, which you can use to test and develop smart contracts.
 
 Ganache is a part of the Truffle Suite, which is a set of tools for developers who are using the Ethereum Virtual Machine. When you install Ganache, it creates an ephemeral blockchain that is stored on your local machine. This means that the blocks it creates are retired as soon as the purpose of recording the transaction is completed. This is ideal for testing purposes, because it means Ganache is both fast and lightweight.
 
