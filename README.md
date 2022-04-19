@@ -27,21 +27,13 @@ Ganache is a part of the Truffle Suite (Links to an external site.), which is a 
 
 This application was written in python 3.7. It uses the following libraries:
 
-* [os](https://github.com/numpy/numpy) - For mathematical operations.
-
 * [dotenv](https://github.com/sqlalchemy/sqlalchemy) - For database functionality.
-
-* [requests](https://github.com/pandas-dev/pandas) - For dataframe tools and quantitative analysis.
 
 * [bip44](https://pypi.org/project/bip44/) - For deriving hierarchical deterministic wallets from a seed phrase based on the BIP-44 standard.
 
 * [web3](https://web3py.readthedocs.io/en/stable/overview.html) - For for connecting to and performing operations on Ethereum-based blockchains.
 
 * [streamlit](https://github.com/voila-dashboards) - For publishing Jupyter notebook output as a web application.
-
-* [dataclasses](https://github.com/voila-dashboards) - For publishing Jupyter notebook output as a web application.
-
-* [typing](https://github.com/voila-dashboards) - For publishing Jupyter notebook output as a web application.
 
 ---
 
