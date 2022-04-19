@@ -11,10 +11,9 @@ Ganache is a part of the Truffle Suite, which is a set of tools for developers w
 
 1. Make sure your development environment has access to the libraries listed in the Technologies section below.
 2. Clone and Pull the github repository.
-3. Store your Ethereum account mnemonic code for your test account in an .env file (ie. MNEMONIC = 'your mnemonic code').
+3. Store your Ethereum account mnemonic code for your test account (from Ganache) in an .env file (ie. MNEMONIC = 'your mnemonic code').
 4. From your terminal, navigate to the project folder that contains your `.env` file and the `fintech_finder.py` and `crypto_wallet.py` files.
 5. To launch the Streamlit application, type `streamlit run fintech_finder.py`.
-
 6. On the resulting webpage, select a candidate that you would like to hire from the appropriate drop-down menu. Then, enter the number of hours that you would like to hire them for. 
 7. Click the Send Transaction button to sign and send the transaction with your Ethereum account information. If the transaction is successfully communicated to Ganache, validated, and added to a block, a resulting transaction hash code will be written to the Streamlit application sidebar.
 
@@ -32,9 +31,9 @@ This application was written in python 3.7. It uses the following libraries:
 
 * [bip44](https://pypi.org/project/bip44/) - For deriving hierarchical deterministic wallets from a seed phrase based on the BIP-44 standard.
 
-* [web3](https://web3py.readthedocs.io/en/stable/overview.html) - For for connecting to and performing operations on Ethereum-based blockchains.
+* [web3](https://web3py.readthedocs.io/en/stable/overview.html) - For connecting to and performing operations on Ethereum-based blockchains.
 
-* [streamlit](https://github.com/voila-dashboards) - For publishing Jupyter notebook output as a web application.
+* [streamlit](https://github.com/streamlit/streamlit) - For publishing the python code as a web application.
 
 ---
 
