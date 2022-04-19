@@ -3,7 +3,7 @@ This is a proof of concept for an app that stores a directory of consultants and
 
 ## How to Use and Test the App with Ganache
 
-### Send a test transaction by using the application’s web interface. Then look up the resulting transaction hash in Ganache.
+### Send a test transaction by using the application’s web interface. Then look up the resulting transaction hash in Ganache to confirm that the completion of the transaction.
 
 1. Make sure your development environment has access to the libraries listed in the Technologies section below.
 2. Clone and Pull the github repository.
