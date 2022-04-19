@@ -3,6 +3,8 @@ This is a proof of concept for an app that stores a directory of consultants and
 
 ## How to Use and Test the App with Ganache
 
+Ganache is a part of the Truffle Suite (Links to an external site.), which is a set of tools for developers who are using the Ethereum Virtual Machine. When you install Ganache, it creates an ephemeral blockchain that is stored on your local machine. This means that the blocks it creates are retired as soon as the purpose of recording the transaction is completed. This is ideal for testing purposes, because it means Ganache is both fast and lightweight.
+
 ### Send a test transaction by using the application’s web interface. Then look up the resulting transaction hash in Ganache to confirm that the completion of the transaction.
 
 1. Make sure your development environment has access to the libraries listed in the Technologies section below.
