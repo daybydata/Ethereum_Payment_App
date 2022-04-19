@@ -3,7 +3,9 @@ This is a proof of concept for an app that stores a directory of consultants and
 
 ## How to Use and Test the App with Ganache
 
-Ganache is a part of the Truffle Suite (Links to an external site.), which is a set of tools for developers who are using the Ethereum Virtual Machine. When you install Ganache, it creates an ephemeral blockchain that is stored on your local machine. This means that the blocks it creates are retired as soon as the purpose of recording the transaction is completed. This is ideal for testing purposes, because it means Ganache is both fast and lightweight.
+![Ganache](https://trufflesuite.com/ganache/) is program that allows you to quickly set up a local blockchain, which you can use to test and develop smart contracts.
+
+Ganache is a part of the Truffle Suite, which is a set of tools for developers who are using the Ethereum Virtual Machine. When you install Ganache, it creates an ephemeral blockchain that is stored on your local machine. This means that the blocks it creates are retired as soon as the purpose of recording the transaction is completed. This is ideal for testing purposes, because it means Ganache is both fast and lightweight.
 
 ### Send a test transaction by using the application’s web interface. Then look up the resulting transaction hash in Ganache to confirm that the completion of the transaction.
 
@@ -20,14 +22,13 @@ Ganache is a part of the Truffle Suite (Links to an external site.), which is a 
 ![Ganache 4_11_2022 8_57_03 PM](https://user-images.githubusercontent.com/94941017/163826663-e944f88c-9fb7-4df6-8cbd-41d22b2bf564.png)
 
 9. Navigate to the Ganache transactions tab and locate the transaction.
-![Ganache 4_11_2022 8_58_03 PM](https://user-images.githubusercontent.com/94941017/163826674-ed3f72de-3115-4e6e-888b-bd59a2e44852.png)
+![Ganache 4_11_2022 8_58_03 PM](https://user-images.githubusercontent.com/94941017/163998035-ef36b3b1-15cc-4f43-ad0f-adf4001eea3a.png)
+
 ---
 
 ## Technologies
 
 This application was written in python 3.7. It uses the following libraries:
-
-* [dotenv](https://github.com/sqlalchemy/sqlalchemy) - For database functionality.
 
 * [bip44](https://pypi.org/project/bip44/) - For deriving hierarchical deterministic wallets from a seed phrase based on the BIP-44 standard.
 
